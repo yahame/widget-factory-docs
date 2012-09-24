@@ -1,13 +1,10 @@
-# How jQuery UI Works
+# jQuery UI 是怎么工作的
 
-jQuery UI contains many widgets that maintain state
-and therefore have a slightly different usage pattern than typical jQuery plugins.
-All of jQuery UI's widgets use the same patterns,
-so if you learn how to use one, then you'll know how to use all of them.
-This document will walk you through the common functionality,
-using a progressbar widget for the code examples.
+jQuery UI 包含多个widget需要维护状态因此需要个跟典型的jQuery插件不同的使用模式。
+所有的 jQuery UI widget 使用相同的模式，如果你学会用一个widget，那么你就知道其他的widget怎么用了。
+本文档将通过介绍一个progressbar widget引导您完成通用的功能。
 
-## Initialization
+## 初始化
 
 In order to track the state of the widget, we must introduce a full life cycle for the widget.
 The life cycle starts when the widget is initalized.
